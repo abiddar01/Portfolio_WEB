@@ -172,9 +172,11 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+
+html, body { max-width: 100%; overflow-x: hidden; }
 </style>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 overflow-x-hidden">
 <!-- Navigation -->
 <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
