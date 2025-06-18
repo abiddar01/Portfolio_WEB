@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Muhammad Abid Dar - Software Engineer Portfolio</title>
-<script src="https://cdn.tailwindcss.com/3.4.16">
-</script>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
 <script>
 tailwind.config = {
   theme: {
@@ -35,143 +34,143 @@ tailwind.config = {
 <style>
 :where([class^="ri-"])::before { content: "\f3c2"; }
 body {
-font-family: 'Inter', sans-serif;
-scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 :root {
---primary-light: #3b82f6;
---secondary-light: #10b981;
---bg-light: #ffffff;
---bg-light-secondary: #f9fafb;
---text-light: #1f2937;
---text-light-secondary: #4b5563;
---border-light: #e5e7eb;
+  --primary-light: #3b82f6;
+  --secondary-light: #10b981;
+  --bg-light: #ffffff;
+  --bg-light-secondary: #f9fafb;
+  --text-light: #1f2937;
+  --text-light-secondary: #4b5563;
+  --border-light: #e5e7eb;
 }
 :root.dark {
---primary-dark: #60a5fa;
---secondary-dark: #34d399;
---bg-dark: #111827;
---bg-dark-secondary: #1f2937;
---text-dark: #f9fafb;
---text-dark-secondary: #d1d5db;
---border-dark: #374151;
+  --primary-dark: #60a5fa;
+  --secondary-dark: #34d399;
+  --bg-dark: #111827;
+  --bg-dark-secondary: #1f2937;
+  --text-dark: #f9fafb;
+  --text-dark-secondary: #d1d5db;
+  --border-dark: #374151;
 }
 .dark body {
-background-color: var(--bg-dark);
-color: var(--text-dark);
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
 }
 .dark nav {
-background-color: var(--bg-dark-secondary);
+  background-color: var(--bg-dark-secondary);
 }
 .dark .bg-white {
-background-color: var(--bg-dark-secondary);
+  background-color: var(--bg-dark-secondary);
 }
 .dark .bg-gray-50 {
-background-color: var(--bg-dark);
+  background-color: var(--bg-dark);
 }
 .dark .text-gray-900 {
-color: var(--text-dark);
+  color: var(--text-dark);
 }
 .dark .text-gray-700 {
-color: var(--text-dark-secondary);
+  color: var(--text-dark-secondary);
 }
 .dark .text-gray-600 {
-color: var(--text-dark-secondary);
+  color: var(--text-dark-secondary);
 }
 .dark .border-gray-100,
 .dark .border-gray-300 {
-border-color: var(--border-dark);
+  border-color: var(--border-dark);
 }
 .dark .bg-gray-200 {
-background-color: var(--bg-dark);
+  background-color: var(--bg-dark);
 }
 .dark .shadow-lg {
-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
 }
 .dark input,
 .dark textarea {
-background-color: var(--bg-dark);
-color: var(--text-dark);
-border-color: var(--border-dark);
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
 }
 .dark input::placeholder,
 .dark textarea::placeholder {
-color: var(--text-dark-secondary);
+  color: var(--text-dark-secondary);
 }
 .dark .skill-bar {
-background-color: var(--bg-dark);
+  background-color: var(--bg-dark);
 }
 .typewriter {
-overflow: hidden;
-white-space: nowrap;
-border-right: 2px solid #3b82f6;
-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #3b82f6;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 @keyframes typing {
-from { width: 0 }
-to { width: 100% }
+  from { width: 0 }
+  to { width: 100% }
 }
 @keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: #3b82f6 }
+  from, to { border-color: transparent }
+  50% { border-color: #3b82f6 }
 }
 .custom-shadow {
-box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1), 0 8px 10px -6px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1), 0 8px 10px -6px rgba(59, 130, 246, 0.1);
 }
 .skill-bar {
-height: 8px;
-border-radius: 4px;
-background: #e5e7eb;
-overflow: hidden;
+  height: 8px;
+  border-radius: 4px;
+  background: #e5e7eb;
+  overflow: hidden;
 }
 .skill-progress {
-height: 100%;
-border-radius: 4px;
-background: linear-gradient(90deg, #3b82f6, #10b981);
-transition: width 1s ease-in-out;
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  transition: width 1s ease-in-out;
 }
 input:focus, textarea:focus {
-outline: none;
-border-color: #3b82f6;
+  outline: none;
+  border-color: #3b82f6;
 }
 .custom-switch {
-position: relative;
-display: inline-block;
-width: 50px;
-height: 24px;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
 }
 .custom-switch input {
-opacity: 0;
-width: 0;
-height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 .slider {
-position: absolute;
-cursor: pointer;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #ccc;
-transition: .4s;
-border-radius: 24px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
 }
 .slider:before {
-position: absolute;
-content: "";
-height: 18px;
-width: 18px;
-left: 3px;
-bottom: 3px;
-background-color: white;
-transition: .4s;
-border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
 }
 input:checked + .slider {
-background-color: #3b82f6;
+  background-color: #3b82f6;
 }
 input:checked + .slider:before {
-transform: translateX(26px);
+  transform: translateX(26px);
 }
 </style>
 </head>
